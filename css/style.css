@@ -1,0 +1,51 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-size: 62.5%
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  margin-left: 10rem;
+  font-size: 3rem;
+  width: 100%;
+  background-image: url('starsNight.jpg');
+  background-size: contain;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+h1, h2, h3 {
+  color: #FFD32D;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  width: 80%;
+}
+
+button {
+  background: #FFF89A;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
